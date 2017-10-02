@@ -1,6 +1,7 @@
 Hello World CLI
 ===============
 
+[![Build Status](https://travis-ci.org/fpoli/rust-hello-cli.svg?branch=master)](https://travis-ci.org/fpoli/rust-hello-cli)
 
 Install
 -------
