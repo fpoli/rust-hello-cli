@@ -1,0 +1,17 @@
+[package]
+name = "hello-cli"
+version = "0.1.1"
+authors = ["Federico Poli <federpoli@gmail.com>"]
+license = "MIT"
+description = "Prints a nice 'Hello World!' message"
+
+[dependencies]
+clap = "2.26.2"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hello"
+path = "src/main.rs"
