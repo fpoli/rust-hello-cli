@@ -1,6 +1,6 @@
 [package]
 name = "hello-cli"
-version = "0.1.3"
+version = "0.2.0"
 authors = ["Federico Poli <federpoli@gmail.com>"]
 repository = "https://github.com/fpoli/rust-hello-cli.git"
 homepage = "https://github.com/fpoli/rust-hello-cli"
@@ -13,10 +13,6 @@ travis-ci = { repository = "fpoli/rust-hello-cli" }
 
 [dependencies]
 clap = "2.26.2"
-
-[lib]
-name = "lib"
-path = "src/lib.rs"
 
 [[bin]]
 name = "hello"

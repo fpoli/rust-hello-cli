@@ -1,8 +1,8 @@
 #[macro_use]
 extern crate clap;
-extern crate lib;
 use clap::{Arg, App, AppSettings};
-use lib::build_message;
+
+pub mod lib;
 
 fn main() {
     let matches = App::new("hello")
@@ -18,6 +18,6 @@ fn main() {
             .get_matches();
 
     let opt_name = matches.value_of("name");
-    let message = build_message(opt_name);
+    let message = lib::build_message(opt_name);
     println!("{}", message);
 }
