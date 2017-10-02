@@ -4,7 +4,7 @@ pub fn build_message(opt_name: Option<&str>) -> String {
 }
 
 #[cfg(test)]
-mod test {
+mod tests {
     use super::*;
 
     #[test]
