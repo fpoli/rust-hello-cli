@@ -14,6 +14,19 @@ cargo install hello-cli
 ```
 
 
+Examples
+--------
+```
+$ hello
+Hello World!
+```
+
+```
+$ hello -n MyName
+Hello MyName!
+```
+
+
 Usage
 -----
 
