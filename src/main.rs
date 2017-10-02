@@ -5,7 +5,7 @@ use clap::{Arg, App, AppSettings};
 use lib::build_message;
 
 fn main() {
-    let matches = App::new("helloworld")
+    let matches = App::new("hello")
         .version(crate_version!())
         .usage("hello [OPTIONS]")
         .setting(AppSettings::ColoredHelp)
@@ -19,6 +19,5 @@ fn main() {
 
     let opt_name = matches.value_of("name");
     let message = build_message(opt_name);
-
     println!("{}", message);
 }

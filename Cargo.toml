@@ -1,6 +1,6 @@
 [package]
 name = "hello-cli"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Federico Poli <federpoli@gmail.com>"]
 license = "MIT"
 description = "Prints a nice 'Hello World!' message"
