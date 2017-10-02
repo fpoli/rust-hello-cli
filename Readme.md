@@ -14,8 +14,6 @@ Usage
 -----
 
 ```
-hello 0.1.1
-
 USAGE:
     hello [OPTIONS]
 
